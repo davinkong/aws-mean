@@ -34,7 +34,7 @@ mongoose.connect(url,mongooseDbOption);   //ready to connect
 mongoose.connection
 
 //link to router module like a import concept. 
-var Product = require("./router/product.router.js");
+var Product = require("./routers/product.router.js");
 
 //URL 
 
